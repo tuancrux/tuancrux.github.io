@@ -23,7 +23,9 @@ body {
     z-index: 1;
 }
 .main .home #particle {
+    height: 100%;
     position: relative;
+    width: 100%;
     z-index: 9;
 }
 .main .home .content {
@@ -65,11 +67,13 @@ body {
     align-items: center;
     display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
     -ms-flex-pack: center;
     justify-content: center;
 }
 .main .home .content li {
-    margin: 0 7.5px;
+    margin: 7.5px;
 }
 .main .home .content i {
     background-color: #ffffff;
